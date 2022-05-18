@@ -1,0 +1,51 @@
+{
+	"name": "codekandis/ldap",
+	"description": "`codekandis/ldap` is a library providing LDAP wrapper interfaces and classes.",
+	"keywords": [
+		"php",
+		"ldap",
+		"wrapper",
+		"interfaces",
+		"classes"
+	],
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Christian Ramelow",
+			"email": "info@codekandis.net",
+			"homepage": "https://codekandis.net",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "info@codekandis.net",
+		"issues": "https://github.com/codekandis/ldap/issues",
+		"docs": "https://github.com/codekandis/ldap/blob/master/README.md",
+		"source": "https://github.com/codekandis/ldap/tree/master"
+	},
+	"require": {
+		"php": "^7.4"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-master",
+		"codekandis/phpunit": "^3"
+	},
+	"autoload": {
+		"psr-4": {
+			"CodeKandis\\Ldap\\": [
+				"src"
+			]
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"CodeKandis\\Ldap\\Tests\\": [
+				"tests"
+			]
+		}
+	},
+	"scripts": {
+	}
+}
